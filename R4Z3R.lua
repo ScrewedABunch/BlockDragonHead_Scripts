@@ -1200,7 +1200,7 @@ UnlockPartsLocal.MouseButton1Click:Connect(function()
 end)
 
 k3kHub.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/ScrewedABunch/BlockDragonHead_Scripts/refs/heads/main/K3K_Hub.txt"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ScrewedABunch/BlockDragonHead_Scripts/refs/heads/main/t0pk3kv3.lua"))()
 end)
 
 AnimationsHub.MouseButton1Click:Connect(function()
@@ -1223,11 +1223,11 @@ ChaosGuiHub.MouseButton1Click:Connect(function()
 end)
 
 DexHub.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/ScrewedABunch/BlockDragonHead_Scripts/refs/heads/main/Dex.txt"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ScrewedABunch/BlockDragonHead_Scripts/refs/heads/main/Dex%20V1.txt"))()
 end)
 
 ElysianHub.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/ScrewedABunch/BlockDragonHead_Scripts/refs/heads/main/Elysian.txt"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ScrewedABunch/BlockDragonHead_Scripts/refs/heads/main/ElysianV2.txt"))()
 end)
 
 InfYieldHub.MouseButton1Click:Connect(function()
