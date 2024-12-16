@@ -12,7 +12,7 @@ _2.Parent = _1
 _2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 _2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 _2.BorderSizePixel = 0
-_2.Position = UDim2.new(0.36500001, 0, -1, 0)
+_2.Position = UDim2.new(0.44, 0, -1, 0)
 _2.Size = UDim2.new(0, 245, 0, 245)
 _2.Style = Enum.FrameStyle.RobloxRound
 
@@ -48,7 +48,7 @@ local function ZRUPP_fake_script() -- _2.5
 
 	local TweenService = game:GetService("TweenService")
 	local Gui = script.Parent
-
+	
 	local info = TweenInfo.new(
 		1, --Length
 		Enum.EasingStyle.Bounce, --Type of Tween (easing style)
@@ -57,30 +57,29 @@ local function ZRUPP_fake_script() -- _2.5
 		false, --Reverse? (go back up)
 		0 --Delay
 	)
-
+	
 	local Goals =
-		{
-			Position = UDim2.new(0.365, 0,0.31, 0); 
-		}
-
+	{
+			Position = UDim2.new(0.44, 0,0.31, 0); 
+	}
+	
 	local Goals2 =
 		{
-			Position = UDim2.new(0.365, 0,1.5, 0); 
+			Position = UDim2.new(0.44, 0,1.5, 0); 
 		}
-
+	
 	local ButtonTween = TweenService:Create(Gui, info, Goals)
 	local ButtonTween2 = TweenService:Create(Gui, info, Goals2)	
-
+	
 	ButtonTween:Play()
 	wait(3)
 	ButtonTween2:Play()
-	wait(1)
+	wait(3)
 	Gui.Parent:Destroy()
 end
 coroutine.wrap(ZRUPP_fake_script)()
 
-wait(4)
-
+wait(3)
 
 local BGMusic = false -- Set this to "true" if you want music in the background if the game is silent
 local BGMusicVolume = 0.5 -- This is the volume of the background music
