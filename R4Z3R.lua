@@ -81,9 +81,6 @@ coroutine.wrap(ZRUPP_fake_script)()
 
 wait(3)
 
-local BGMusic = false -- Set this to "true" if you want music in the background if the game is silent
-local BGMusicVolume = 0.5 -- This is the volume of the background music
-
 local R4Z3R = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
 local TopBar = Instance.new("Frame")
