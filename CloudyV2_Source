@@ -3,6 +3,7 @@
             m.SoundId = "rbxassetid://9046863253"
             m.Looped = true
             m.Volume = MusicVolume
+            m:Play()
         end
         
         if CustomCursor == true then
