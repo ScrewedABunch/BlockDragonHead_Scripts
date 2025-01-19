@@ -32,7 +32,7 @@
                 --// Properties \\--
         
         Cloudy_V2.Name = "Cloudy_V2"
-        Cloudy_V2.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+        Cloudy_V2.Parent = game.CoreGui
         Cloudy_V2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
         
         MainFrame.Name = "MainFrame"
