@@ -7,32 +7,7 @@
         end
         
         if CustomCursor == true then
--- LocalScript: Custom Cursor Script
-
-local UserInputService = game:GetService("UserInputService")
-local player = game.Players.LocalPlayer
-
--- URL of your custom cursor image
-local customCursorImage = "rbxassetid://6979941273" -- Replace with your image asset ID
-
--- Update the cursor image
-UserInputService.MouseIconEnabled = true
-UserInputService.MouseIcon = customCursorImage
-
--- Optional: Handle disabling and enabling the custom cursor during GUI interactions
-local function updateCursor(enabled)
-    if enabled then
-        UserInputService.MouseIcon = customCursorImage
-    else
-        UserInputService.MouseIcon = ""
-    end
-end
-
--- Example: If you toggle a GUI
-local screenGui = player:WaitForChild("PlayerGui"):WaitForChild("YourScreenGui") -- Replace with your GUI name
-screenGui:GetPropertyChangedSignal("Enabled"):Connect(function()
-    updateCursor(screenGui.Enabled)
-end)
+                game:GetService("Players").LocalPlayer:GetMouse().Icon = "rbxassetid://4264273816";
         end 
         
         --// Instances \\--
