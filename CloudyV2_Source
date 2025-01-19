@@ -1,6 +1,6 @@
         if BackgroundMusic == true then
             local m = Instance.new("Sound", game.Workspace)
-            m.SoundId = "rbxassetid://9046863253"
+            m.SoundId = BackgroundMusicId
             m.Looped = true
             m.Volume = MusicVolume
             m:Play()
