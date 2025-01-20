@@ -4,6 +4,16 @@ local RunService = game:GetService("RunService")
 local LocalPlayer = game:GetService("Players").LocalPlayer
 local Mouse = LocalPlayer:GetMouse()
 local HttpService = game:GetService("HttpService")
+local notifsoundlol = Instance.new("Sound")
+local windowsoundlol = Instance.new("Sound")
+
+notifsoundlol.Parent = game.Workspace
+notifsoundlol.SoundId = "rbxassetid://8055713313"
+notifsoundlol.Volume = 0.75
+
+windowsoundlol.Parent = game.Workspace
+windowsoundlol.SoundId = "rbxassetid://5417187855"
+windowsoundlol.Volume = 1
 
 local OrionLib = {
 	Elements = {},
@@ -398,6 +408,8 @@ function OrionLib:MakeNotification(NotificationConfig)
 			Parent = NotificationHolder
 		})
 
+		notifsoundlol:Play()
+
 		local NotificationFrame = SetChildren(SetProps(MakeElement("RoundFrame", Color3.fromRGB(25, 25, 25), 0, 10), {
 			Parent = NotificationParent, 
 			Size = UDim2.new(1, 0, 0, 0),
@@ -466,6 +478,8 @@ function OrionLib:MakeWindow(WindowConfig)
 	local Minimized = false
 	local Loaded = false
 	local UIHidden = false
+
+	windowsoundlol:Play()
 
 	WindowConfig = WindowConfig or {}
 	WindowConfig.Name = "Forcefield V1 | Basically Pendulum Hub"
