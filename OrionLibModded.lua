@@ -9,11 +9,11 @@ local windowsoundlol = Instance.new("Sound")
 
 notifsoundlol.Parent = game.Workspace
 notifsoundlol.SoundId = "rbxassetid://8055713313"
-notifsoundlol.Volume = 0.75
+notifsoundlol.Volume = 1.25
 
 windowsoundlol.Parent = game.Workspace
 windowsoundlol.SoundId = "rbxassetid://5417187855"
-windowsoundlol.Volume = 1
+windowsoundlol.Volume = 1.25
 
 local OrionLib = {
 	Elements = {},
