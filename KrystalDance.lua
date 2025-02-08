@@ -140,7 +140,7 @@
 	
 			introsound = Instance.new("Sound",Head)
 			introsound.SoundId = "rbxassetid://236146895"
-			introsound.Volume = 8
+			introsound.Volume = 0.5
 			introsound:Play()
 	
 	
