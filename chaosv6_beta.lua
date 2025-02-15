@@ -85,7 +85,7 @@ local UICorner = Instance.new("UICorner")
 
 Chaos.Name = "Chaos"
 Chaos.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-Chaos.Enabled = false
+Chaos.Enabled = true
 
 TopBar.Name = "TopBar"
 TopBar.Parent = Chaos
