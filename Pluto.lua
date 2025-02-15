@@ -8,7 +8,7 @@
 
  Also check out >>> luaobfuscator.com <<<
  Enjoy this script!
- ~BlockyDragonHead
+ ~BlockyDragonHead XD
 
 ]]--
 
