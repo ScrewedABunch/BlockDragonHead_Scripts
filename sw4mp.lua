@@ -152,7 +152,7 @@ local OpenClose = Instance.new("TextButton")
 --Properties:
 
 sw4mpm0nsterv1.Name = "sw4mp m0nster v1"
-sw4mpm0nsterv1.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+sw4mpm0nsterv1.Parent = game.CoreGui
 sw4mpm0nsterv1.Enabled = true
 sw4mpm0nsterv1.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
